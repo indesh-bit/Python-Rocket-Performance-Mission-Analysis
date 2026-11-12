@@ -1,0 +1,127 @@
+
+=================================================================
+ PYTHON-BASED INTEGRATED ROCKET PERFORMANCE
+          AND MISSION ANALYSIS SYSTEM
+=================================================================
+
+Enter rocket name: Enter payload mass (kg): Enter number of stages (1-3): 
+============================================================
+STAGE 1
+============================================================
+Dry mass (kg): Propellant mass (kg): Specific impulse (s): Burn time (s): Chamber pressure (MPa): Nozzle throat area (m^2): Nozzle exit area (m^2): 
+============================================================
+STAGE 2
+============================================================
+Dry mass (kg): Propellant mass (kg): Specific impulse (s): Burn time (s): Chamber pressure (MPa): Nozzle throat area (m^2): Nozzle exit area (m^2): 
+============================================================
+MISSION CONFIGURATION
+============================================================
+Target orbit altitude (km): Rocket drag coefficient (Cd): Rocket reference area (m^2): 
+
+=================================================================
+ROCKET PERFORMANCE REPORT
+=================================================================
+Rocket Name          : falcon 9 model
+Number of Stages     : 2
+Payload Mass         : 15600.0 kg
+Total Dry Mass       : 29600.0 kg
+Total Propellant     : 523500.0 kg
+Initial Rocket Mass  : 568700.0 kg
+
+============================================================
+STAGE 1 PERFORMANCE
+============================================================
+Initial Mass       : 568700.0 kg
+Final Mass         : 157700.0 kg
+Specific Impulse   : 282.0 s
+Exhaust Velocity   : 2765.48 m/s
+Mass Flow Rate     : 2537.04 kg/s
+Thrust             : 7016113.26 N
+Thrust             : 7.016 MN
+Total Impulse      : 1136610348.3 N.s
+Stage Delta-V      : 3547.16 m/s
+Stage Delta-V      : 3.547 km/s
+
+NOZZLE ANALYSIS
+Chamber Pressure   : 10.0 MPa
+Throat Area        : 0.5 m^2
+Exit Area          : 4.5 m^2
+Expansion Ratio    : 9.0
+
+============================================================
+STAGE 2 PERFORMANCE
+============================================================
+Initial Mass       : 132100.0 kg
+Final Mass         : 19600.0 kg
+Specific Impulse   : 348.0 s
+Exhaust Velocity   : 3412.71 m/s
+Mass Flow Rate     : 283.38 kg/s
+Thrust             : 967078.96 N
+Thrust             : 0.967 MN
+Total Impulse      : 383930347.5 N.s
+Stage Delta-V      : 6511.56 m/s
+Stage Delta-V      : 6.512 km/s
+
+NOZZLE ANALYSIS
+Chamber Pressure   : 6.0 MPa
+Throat Area        : 0.2 m^2
+Exit Area          : 2.5 m^2
+Expansion Ratio    : 12.5
+
+============================================================
+TOTAL ROCKET PERFORMANCE
+============================================================
+Total Ideal Delta-V  : 10058.72 m/s
+Total Ideal Delta-V  : 10.059 km/s
+
+============================================================
+ATMOSPHERIC ANALYSIS AT TARGET ALTITUDE
+============================================================
+Temperature          : 270.65 K
+Pressure             : 0 Pa
+Density              : 0 kg/m^3
+Speed of Sound       : 329.8 m/s
+
+============================================================
+ORBIT ANALYSIS
+============================================================
+Target Orbit         : 200.0 km
+Circular Orbital Speed: 7788.49 m/s
+Escape Velocity      : 11014.59 m/s
+Orbital Period       : 88.35 minutes
+
+============================================================
+SIMPLIFIED DELTA-V BUDGET
+============================================================
+Ideal Delta-V        : 10.059 km/s
+Estimated Gravity Loss: 1.500 km/s
+Estimated Drag Loss  : 0.300 km/s
+Estimated Steering Loss: 0.100 km/s
+Estimated Required   : 9.688 km/s
+Estimated Margin     : 0.37 km/s
+
+Note: Loss allowances are illustrative estimates, not simulated losses.
+Assessment: Ideal Delta-V exceeds the simplified estimate.
+
+============================================================
+TRAJECTORY ANALYSIS
+============================================================
+Maximum Altitude     : 1079.116 km
+Maximum Velocity     : 5087.8 m/s
+Maximum Velocity     : 5.088 km/s
+Maximum Acceleration : 41.8 m/s^2
+Maximum Mach Number  : 15.364
+Maximum Drag         : 98119.16 N
+
+============================================================
+FINAL SUMMARY
+============================================================
+Rocket               : falcon 9 model
+Initial Mass         : 568700.0 kg
+Total Propellant     : 523500.0 kg
+Total Ideal Delta-V  : 10.059 km/s
+Target Orbit         : 200.0 km
+Orbital Velocity     : 7.788 km/s
+
+Generating all seven graphs...
+\nSeven graphs generated and saved in the 'visualizations' folder.
